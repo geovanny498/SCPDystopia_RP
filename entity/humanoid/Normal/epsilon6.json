@@ -10,7 +10,7 @@
         "default": "textures/entity/humanoid/epsilon6"
       },
       "geometry": {
-        "default": "geometry.alpha1"
+        "default": "geometry.dt_eta10"
       },
       "animations": {
         "general": "animation.dt_chara.general",

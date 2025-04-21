@@ -10,7 +10,7 @@
         "default": "textures/entity/humanoid/beta7"
       },
       "geometry": {
-        "default": "geometry.alpha1"
+        "default": "geometry.dt_chaos_insurgency_m16"
       },
       "animations": {
         "general": "animation.dt_chara.general", 
