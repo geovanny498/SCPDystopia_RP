@@ -401,6 +401,15 @@
         },
         "dt_confidential_file": {
             "textures": "textures/items/dt_confidential_file"
-        }
+        },
+        "scpdy_killer_sword_icon": {
+			"textures": "textures/items/killer_sword_icon"
+		},
+		"scpdy_pain_sword_icon": {
+			"textures": "textures/items/pain_sword_icon"
+		},
+		"scpdy_void_sword_icon": {
+			"textures": "textures/items/void_sword_icon"
+		}
     }
 }
