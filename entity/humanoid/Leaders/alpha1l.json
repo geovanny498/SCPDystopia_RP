@@ -24,7 +24,7 @@
         "looking_at_target": "animation.dt_chara.looking_at_target",
         "gun_resize": "animation.dt_chara.gun_resize",
         "anim_cont": "controller.animation.dt_chara.anim_cont",
-        "reload_gun": "animation.dt_chara.reloading_gun",
+        "reloading_gun": "animation.dt_chara.reloading_gun",
         "melee_attacking_gun": "animation.dt_chara.melee_attacking_gun"
       },
       "scripts": {

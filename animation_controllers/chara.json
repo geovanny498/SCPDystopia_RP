@@ -15,13 +15,13 @@
 					"animations": ["aim", "looking_at_target"],
 					"transitions": [
 						{"default": "!query.has_target"},
-						{"reload_gun": "q.is_charged"},
+						{"reloading_gun": "q.is_charged"},
 						{"melee_attacking_gun": "q.is_delayed_attacking == 1"}
 					],
-					"blend_transition": 0.2
+					"blend_transition": 0.4
 				},
-				"reload_gun": {
-					"animations": ["reload_gun", "looking_at_target"],
+				"reloading_gun": {
+					"animations": ["reloading_gun", "looking_at_target"],
 					"transitions": [
 						{"aim": "!q.is_charged"}
 					],
