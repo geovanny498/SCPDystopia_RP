@@ -10,7 +10,7 @@
         "default": "textures/entity/humanoid/cd_leader"
       },
       "geometry": {
-        "default": "geometry.cdleader"
+        "default": "geometry.alpha1"
       },
       "animations": {
         "general": "animation.dt_chara.general",
