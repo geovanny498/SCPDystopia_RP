@@ -585,7 +585,7 @@
                     "attack": "",
                     "shoot" : {
                         "pitch": 1.0,
-                        "sound": "scpdt.hk416.shoot",
+                        "sound": "scpdt.m4a1.shot",
                         "volume": 1.0
                     }
                 },
@@ -608,7 +608,7 @@
                     "attack": "",
                     "shoot" : {
                         "pitch": 1.0,
-                        "sound": "scpdt.m4a1.shot",
+                        "sound": "scpdt.hk416.shoot",
                         "volume": 1.0
                     }
                 },
