@@ -325,7 +325,7 @@
                 ],
                 "volume": 0.85
             },
-            "lc:dt_epsilon11_commander": {
+            "lc:dt_epsilon11c": {
                 "events": {
                     "step": {
                         "pitch": 0.9,
@@ -338,7 +338,7 @@
                     "attack": "",
                     "shoot" : {
                         "pitch": 1.0,
-                        "sound": "scpdt.p90.shot",
+                        "sound": "scpdt.p90.shoot",
                         "volume": 1.1
                     }
                 },
@@ -351,9 +351,9 @@
             "lc:dt_eta10": {
                 "events": {
                     "step": {
-                        "pitch": 0.87,
+                        "pitch": 0.9,
                         "sound": "scpdt.epsilon11.step",
-                        "volume": 1.03
+                        "volume": 1.0
                     },
                     "death": "scpdt.eta10.idle",
                     "ambient": "scpdt.eta10.idle",
@@ -361,8 +361,31 @@
                     "attack": "scpdt.eta10.attack",
                     "shoot" : {
                         "pitch": 1.0,
-                        "sound": "scpdt.hk_mp5.shot",
-                        "volume": 1.14
+                        "sound": "scpdt.mp7.shoot",
+                        "volume": 1.0
+                    }
+                },
+                "pitch": [
+                    0.95,
+                    1.05
+                ],
+                "volume": 0.85
+            },
+            "lc:dt_eta10c": {
+                "events": {
+                    "step": {
+                        "pitch": 0.9,
+                        "sound": "scpdt.epsilon11.step",
+                        "volume": 1.0
+                    },
+                    "death": "",
+                    "ambient": "",
+                    "angry": "",
+                    "attack": "",
+                    "shoot" : {
+                        "pitch": 1.0,
+                        "sound": "scpdt.mp7.shoot",
+                        "volume": 1.0
                     }
                 },
                 "pitch": [
@@ -385,7 +408,30 @@
                     "shoot" : {
                         "pitch": 1.0,
                         "sound": "scpdt.scar.shot",
-                        "volume": 1.1
+                        "volume": 1.0
+                    }
+                },
+                "pitch": [
+                    0.95,
+                    1.05
+                ],
+                "volume": 0.85
+            },
+            "lc:dt_nu7c": {
+                "events": {
+                    "step": {
+                        "pitch": 0.9,
+                        "sound": "scpdt.epsilon11.step",
+                        "volume": 1.0
+                    },
+                    "death": "",
+                    "ambient": "",
+                    "angry": "",
+                    "attack": "",
+                    "shoot" : {
+                        "pitch": 1.0,
+                        "sound": "scpdt.scar.shot",
+                        "volume": 1.0
                     }
                 },
                 "pitch": [
@@ -407,8 +453,31 @@
                     "attack": "",
                     "shoot" : {
                         "pitch": 1.0,
-                        "sound": "scpdt.mp7.shoot",
-                        "volume": 1.1
+                        "sound": "scpdt.m16.shot",
+                        "volume": 1.0
+                    }
+                },
+                "pitch": [
+                    0.95,
+                    1.05
+                ],
+                "volume": 0.85
+            },
+            "lc:dt_beta7c": {
+                "events": {
+                    "step": {
+                        "pitch": 0.9,
+                        "sound": "scpdt.epsilon11.step",
+                        "volume": 1.0
+                    },
+                    "death": "",
+                    "ambient": "",
+                    "angry": "",
+                    "attack": "",
+                    "shoot" : {
+                        "pitch": 1.0,
+                        "sound": "scpdt.m16.shot",
+                        "volume": 1.0
                     }
                 },
                 "pitch": [
@@ -431,7 +500,30 @@
                     "shoot" : {
                         "pitch": 1.0,
                         "sound": "scpdt.mp7.shoot",
-                        "volume": 1.1
+                        "volume": 1.0
+                    }
+                },
+                "pitch": [
+                    0.95,
+                    1.05
+                ],
+                "volume": 0.85
+            },
+            "lc:dt_epsilon6c": {
+                "events": {
+                    "step": {
+                        "pitch": 0.9,
+                        "sound": "scpdt.epsilon11.step",
+                        "volume": 1.0
+                    },
+                    "death": "",
+                    "ambient": "",
+                    "angry": "",
+                    "attack": "",
+                    "shoot" : {
+                        "pitch": 1.0,
+                        "sound": "scpdt.mp7.shoot",
+                        "volume": 1.0
                     }
                 },
                 "pitch": [
@@ -453,7 +545,7 @@
                     "attack": "",
                     "shoot" : {
                         "pitch": 1.0,
-                        "sound": "scpdt.death.shot",
+                        "sound": "scpdt.hk416.shoot",
                         "volume": 1.0
                     }
                 },
@@ -517,7 +609,7 @@
                     "shoot" : {
                         "pitch": 1.0,
                         "sound": "scpdt.m4a1.shot",
-                        "volume": 1.1
+                        "volume": 1.0
                     }
                 },
                 "pitch": [
@@ -540,7 +632,7 @@
                     "shoot" : {
                         "pitch": 1.0,
                         "sound": "scpdt.m4a1.shot",
-                        "volume": 1.1
+                        "volume": 1.0
                     }
                 },
                 "pitch": [
@@ -594,7 +686,7 @@
                     "ambient": "scpdt.chaos.idle",
                     "shoot" : {
                         "pitch": 1.0,
-                        "sound": "scpdt.death.shot",
+                        "sound": "scpdt.hk416.shoot",
                         "volume": 2.0
                     }
                 },
@@ -608,7 +700,7 @@
                     "shoot" : {
                         "pitch": 1.0,
                         "sound": "scpdt.m4a1.shot",
-                        "volume": 1.14
+                        "volume": 1.0
                     }
                 },
                 "pitch": 1.0,
@@ -620,8 +712,8 @@
                     "ambient": "scpdt.chaos.idle",
                     "shoot" : {
                         "pitch": 1.0,
-                        "sound": "scpdt.m16.shot",
-                        "volume": 1.14
+                        "sound": "scpdt.m4a1.shot",
+                        "volume": 1.0
                     }
                 },
                 "pitch": 1.0,
@@ -633,7 +725,7 @@
                     "ambient": "scpdt.chaos.idle",
                     "shoot" : {
                         "pitch": 1.0,
-                        "sound": "scpdt.m16.shot",
+                        "sound": "scpdt.ak47.shoot",
                         "volume": 1.14
                     }
                 },
