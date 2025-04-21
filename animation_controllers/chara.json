@@ -18,7 +18,7 @@
 						{"reloading_gun": "q.is_charged"},
 						{"melee_attacking_gun": "q.is_delayed_attacking == 1"}
 					],
-					"blend_transition": 0.4
+					"blend_transition": 0.2
 				},
 				"reloading_gun": {
 					"animations": ["reloading_gun", "looking_at_target"],
