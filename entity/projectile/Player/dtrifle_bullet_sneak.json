@@ -8,7 +8,7 @@
                 "default": "entity_emissive_alpha"
             },
             "textures": {
-                "default": "textures/entity/bullet_dtrifle"
+                "default": "textures/entity/deathbullet"
             },
             "geometry": {
                 "default": "geometry.dt_bullet"
