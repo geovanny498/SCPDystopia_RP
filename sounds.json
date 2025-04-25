@@ -309,10 +309,10 @@
                         "sound": "scpdt.epsilon11.step",
                         "volume": 1.0
                     },
-                    "death": "scpdt.epsilon11.death",
-                    "ambient": "scpdt.epsilon11.idle",
-                    "angry": "scpdt.epsilon11.mad",
-                    "attack": "scpdt.epsilon11.attack",
+                    "death": "",
+                    "ambient": "",
+                    "angry": "",
+                    "attack": "",
                     "shoot" : {
                         "pitch": 1.0,
                         "sound": "scpdt.p90.shoot",
@@ -355,10 +355,10 @@
                         "sound": "scpdt.epsilon11.step",
                         "volume": 1.0
                     },
-                    "death": "scpdt.eta10.idle",
-                    "ambient": "scpdt.eta10.idle",
-                    "angry": "scpdt.eta10.idle",
-                    "attack": "scpdt.eta10.attack",
+                    "death": "",
+                    "ambient": "",
+                    "angry": "",
+                    "attack": "",
                     "shoot" : {
                         "pitch": 1.0,
                         "sound": "scpdt.mp7.shoot",
@@ -682,8 +682,8 @@
             },
             "lc:dt_cd_commander": {
                 "events": {
-                    "death": "scpdt.chaos.death",
-                    "ambient": "scpdt.chaos.idle",
+                    "death": "",
+                    "ambient": "",
                     "shoot" : {
                         "pitch": 1.0,
                         "sound": "scpdt.hk416.shoot",
@@ -695,8 +695,8 @@
             },
             "lc:dt_cd_leader": {
                 "events": {
-                    "death": "scpdt.chaos.death",
-                    "ambient": "scpdt.chaos.idle",
+                    "death": "",
+                    "ambient": "",
                     "shoot" : {
                         "pitch": 1.0,
                         "sound": "scpdt.m4a1.shot",
@@ -708,8 +708,8 @@
             },
             "lc:dt_cd": {
                 "events": {
-                    "death": "scpdt.chaos.death",
-                    "ambient": "scpdt.chaos.idle",
+                    "death": "",
+                    "ambient": "",
                     "shoot" : {
                         "pitch": 1.0,
                         "sound": "scpdt.m4a1.shot",
@@ -721,8 +721,8 @@
             },
             "lc:dt_chaos_insurgency": {
                 "events": {
-                    "death": "scpdt.chaos.death",
-                    "ambient": "scpdt.chaos.idle",
+                    "death": "",
+                    "ambient": "",
                     "shoot" : {
                         "pitch": 1.0,
                         "sound": "scpdt.ak47.shoot",
