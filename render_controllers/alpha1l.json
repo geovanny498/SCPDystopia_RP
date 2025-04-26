@@ -7,7 +7,8 @@
                     "Array.skins": [
                         "Texture.alpha1l",
                         "Texture.alpha2l",
-                        "Texture.alpha3l"
+                        "Texture.alpha3l",
+                        "Texture.alpha4l"
                     ]
                 }
             },
