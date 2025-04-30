@@ -521,3 +521,7 @@ dt.nameslot.flamethrower.empty=XL18 Flamethrower (Empty)
 dt.nameslot.Flamethrower_fuel=XL18 Flamethrower Fuel
 dt.nameslot.ak=AK Assault Rifle
 dt.nameslot.ak.empty=AK Assault Rifle (Empty)(Empty)
+
+item.lc:scpdy_killer_sword.name=Killer Sword
+item.lc:scpdy_pain_sword.name=Pain Sword
+item.lc:scpdy_void_sword.name=Void Sword
