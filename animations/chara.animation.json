@@ -213,7 +213,7 @@
 					"rotation": [5.34663, -9.18533, -6.83809]
 				},
 				"RightArm": {
-					"rotation": ["-90+query.target_x_rotation - this", "-20+query.target_y_rotation - this", "5+math.sin(query.life_time * 90)*4"],
+					"rotation": ["-90+query.target_x_rotation - this", "-10+query.target_y_rotation - this", "5+math.sin(query.life_time * 90)*4"],
 					"position": [0.95, -0.25, 1.7]
 				},
 				"LeftArm": {
@@ -227,9 +227,6 @@
 				"LeftLeg": {
 					"rotation": [-5.00474, -2.49048, -2.28197],
 					"position": [0, 0, -0.4]
-				},
-				"rightItem": {
-					"rotation": [-1, 0, 10]
 				}
 			}
 		}
