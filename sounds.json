@@ -71,6 +71,72 @@
                 "pitch": 1.0,
                 "volume": 0.2
             },
+            "lc:dt_m4a1_player_bullet": {
+                "events": {
+                    "purr": {
+                        "pitch": 1,
+                        "sound": "scpdt.m4a1.shot",
+                        "volume": 0.2
+                    }
+                },
+                "pitch": 1.0,
+                "volume": 0.2
+            },
+            "lc:dt_scar_player_bullet": {
+                "events": {
+                    "purr": {
+                        "pitch": 1,
+                        "sound": "scpdt.scar.shot",
+                        "volume": 0.2
+                    }
+                },
+                "pitch": 1.0,
+                "volume": 0.2
+            },
+            "lc:dt_dtrifle_player_bullet": {
+                "events": {
+                    "purr": {
+                        "pitch": 1,
+                        "sound": "scpdt.dtrifle.shot",
+                        "volume": 0.2
+                    }
+                },
+                "pitch": 1.0,
+                "volume": 0.2
+            },
+            "lc:dt_p90_player_bullet": {
+                "events": {
+                    "purr": {
+                        "pitch": 1,
+                        "sound": "scpdt.p90.shoot",
+                        "volume": 0.2
+                    }
+                },
+                "pitch": 1.0,
+                "volume": 0.2
+            },
+            "lc:dt_ak47_player_bullet": {
+                "events": {
+                    "purr": {
+                        "pitch": 1,
+                        "sound": "scpdt.ak47.shoot",
+                        "volume": 0.2
+                    }
+                },
+                "pitch": 1.0,
+                "volume": 0.2
+            },
+            "lc:dt_mp7_player_bullet": {
+                "events": {
+                    "purr": {
+                        "pitch": 1,
+                        "sound": "scpdt.mp7.shoot",
+                        "volume": 0.2
+                    }
+                },
+                "pitch": 1.0,
+                "volume": 0.2
+            },
             "lc:dt_hk416_bullet_player_ads": {
                 "events": {
                     "purr": {
@@ -313,7 +379,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.p90.shoot",
                         "volume": 1.1
@@ -336,7 +402,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.p90.shoot",
                         "volume": 1.1
@@ -359,7 +425,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.mp7.shoot",
                         "volume": 1.0
@@ -382,7 +448,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.mp7.shoot",
                         "volume": 1.0
@@ -405,7 +471,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.scar.shot",
                         "volume": 1.0
@@ -428,7 +494,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.scar.shot",
                         "volume": 1.0
@@ -451,7 +517,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.m16.shot",
                         "volume": 1.0
@@ -474,7 +540,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.m16.shot",
                         "volume": 1.0
@@ -485,7 +551,7 @@
                     1.05
                 ],
                 "volume": 0.85
-            }, 
+            },
             "lc:dt_epsilon6": {
                 "events": {
                     "step": {
@@ -497,7 +563,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.mp7.shoot",
                         "volume": 1.0
@@ -520,7 +586,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.mp7.shoot",
                         "volume": 1.0
@@ -531,7 +597,7 @@
                     1.05
                 ],
                 "volume": 0.85
-            }, 
+            },
             "lc:dt_thedeath": {
                 "events": {
                     "step": {
@@ -543,7 +609,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.hk416.shoot",
                         "volume": 1.0
@@ -563,7 +629,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.hk416.shoot",
                         "volume": 1.0
@@ -583,7 +649,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.m4a1.shot",
                         "volume": 1.0
@@ -594,7 +660,7 @@
                     1.05
                 ],
                 "volume": 0.85
-            }, 
+            },
             "lc:dt_alpha1c": {
                 "events": {
                     "step": {
@@ -606,7 +672,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.hk416.shoot",
                         "volume": 1.0
@@ -629,7 +695,7 @@
                     "ambient": "",
                     "angry": "",
                     "attack": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.m4a1.shot",
                         "volume": 1.0
@@ -643,7 +709,7 @@
             },
             "lc:dt_officer": {
                 "events": {
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.glock.shot",
                         "volume": 1.14
@@ -656,7 +722,7 @@
             },
             "lc:dt_tactical_response_officer": {
                 "events": {
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.hk_mp5.shot",
                         "volume": 1.14
@@ -669,7 +735,7 @@
             },
             "lc:dt_tactical_response_officer_shotgun": {
                 "events": {
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.spas12.shot",
                         "volume": 1.14
@@ -684,7 +750,7 @@
                 "events": {
                     "death": "",
                     "ambient": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.hk416.shoot",
                         "volume": 2.0
@@ -697,7 +763,7 @@
                 "events": {
                     "death": "",
                     "ambient": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.m4a1.shot",
                         "volume": 1.0
@@ -710,7 +776,7 @@
                 "events": {
                     "death": "",
                     "ambient": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.m4a1.shot",
                         "volume": 1.0
@@ -723,7 +789,7 @@
                 "events": {
                     "death": "",
                     "ambient": "",
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.ak47.shoot",
                         "volume": 1.14
@@ -734,7 +800,7 @@
             },
             "lc:dt_m249_turret": {
                 "events": {
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 0.93,
                         "sound": "scpdt.m249_turret.m249_shot",
                         "volume": 1.1
@@ -749,7 +815,10 @@
                 "events": {
                     "hurt": {
                         "sound": "random.anvil_land",
-                        "pitch": [ 0.6, 0.7 ],
+                        "pitch": [
+                            0.6,
+                            0.7
+                        ],
                         "volume": 0.5
                     },
                     "death": {
@@ -757,7 +826,7 @@
                         "pitch": 0.7,
                         "volume": 1.0
                     },
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.1,
                         "sound": "scpdt.scar.shot",
                         "volume": 1.1
@@ -768,8 +837,11 @@
             },
             "lc:dt_class_d": {
                 "events": {
-                    "shoot" : {
-                        "pitch": [ 0.9, 1.2 ],
+                    "shoot": {
+                        "pitch": [
+                            0.9,
+                            1.2
+                        ],
                         "sound": "scpdt.class_d.gun_fire",
                         "volume": 1.1
                     }
@@ -782,7 +854,7 @@
             },
             "lc:dt_epsilon11_apache_combat": {
                 "events": {
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 0.86,
                         "sound": "scpdt.glock.shot",
                         "volume": 1.4
@@ -885,12 +957,12 @@
                         "volume": 1.1
                     },
                     "death": "scpdt.scp939_dog.death",
-                    "growl" : "mob.wolf.growl",
+                    "growl": "mob.wolf.growl",
                     "hurt": "scpdt.scp939_dog.hurt",
                     "pant": "scpdt.scp939_dog.hurt",
                     "ambient": "scpdt.scp939_dog.idle",
                     "attack": "scpdt.scp939.attack",
-                    "whine" : "mob.wolf.whine"
+                    "whine": "mob.wolf.whine"
                 },
                 "pitch": [
                     0.9,
@@ -1315,7 +1387,7 @@
             },
             "lc:dt_scp5167_soldier": {
                 "events": {
-                    "shoot" : {
+                    "shoot": {
                         "pitch": 1.0,
                         "sound": "scpdt.mp5a3.shot",
                         "volume": 1.14
@@ -1357,7 +1429,10 @@
                         "volume": 0.9
                     }
                 },
-                "pitch" : [ 0.80, 1.20 ],
+                "pitch": [
+                    0.80,
+                    1.20
+                ],
                 "volume": 1.0
             },
             "lc:dt_scp610": {
