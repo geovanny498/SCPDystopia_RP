@@ -27,6 +27,9 @@
             ]
         }
     ],
+    "capabilities": [
+        "pbr"
+    ],
     "subpacks": [
         {
             "folder_name": "hazmat",
