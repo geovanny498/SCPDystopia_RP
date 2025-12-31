@@ -5,9 +5,7 @@
 			"initial_state": "first_person",
 			"states": {
 				"first_person": {
-					"animations": [
-						"hold_first_person"
-					],
+					"animations": ["hold_first_person"],
 					"transitions": [
 						{
 							"first_person_sneak": "c.is_first_person && q.is_sneaking"
@@ -18,9 +16,7 @@
 					]
 				},
 				"third_person": {
-					"animations": [
-						"hold_third_person"
-					],
+					"animations": ["hold_third_person"],
 					"transitions": [
 						{
 							"first_person_sneak": "c.is_first_person && q.is_sneaking"
@@ -31,9 +27,7 @@
 					]
 				},
 				"first_person_sneak": {
-					"animations": [
-						"hold_first_person_sneak"
-					],
+					"animations": ["hold_first_person_sneak"],
 					"transitions": [
 						{
 							"first_person": "c.is_first_person && !q.is_sneaking"

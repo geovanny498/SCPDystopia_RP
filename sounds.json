@@ -1367,9 +1367,7 @@
                         "volume": 10.0
                     }
                 },
-                "pitch": [
-                    1.00
-                ],
+                "pitch": [1.0],
                 "volume": 2.0
             },
             "lc:dt_scp5167_dragon_son": {

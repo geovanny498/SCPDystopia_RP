@@ -145,6 +145,11 @@
                 "sounds/scpdt_misc/fart/scp5167_cannon"
             ]
         },
+		"scpdt.scp5167_cannon.shot": {
+			"category": "neutral",
+			"max_distance": 22.0,
+			"sounds": ["sounds/scpdt_misc/fart/scp5167_cannon"]
+		},
         "scpdt.zeroplasma.shot": {
             "category": "neutral",
             "max_distance" : 12.0,
@@ -227,6 +232,20 @@
                 "sounds/doors/door_hcz_close3"
             ]
         },
+		"scpdt.door4.open": {
+			"category": "neutral",
+			"max_distance": 9.0,
+			"sounds": ["sounds/doors/door1_open1", "sounds/doors/door1_open2", "sounds/doors/door1_open3"]
+		},
+		"scpdt.door4.close": {
+			"category": "neutral",
+			"max_distance": 9.0,
+			"sounds": [
+				"sounds/doors/door1_close1",
+				"sounds/doors/door1_close2",
+				"sounds/doors/door1_close3"
+			]
+		},
         "scpdt.blast_door.close": {
             "category": "neutral",
             "max_distance" : 16.0,
@@ -688,11 +707,20 @@
             ]
         },
         "scpdt.apache_combat.launch": {
-            "category": "music",
-            "sounds": [
-                "sounds/scpmobs/apache/launch"
-            ]
-        },
+			"category": "music",
+			"sounds": ["sounds/scpmobs/apache/launch"]
+		},
+		"scpdt.apache_combat.shoot": {
+			"category": "hostile",
+			"max_distance": 40.0,
+			"sounds": [
+				{
+					"name": "sounds/scpdt_misc/mp5a3/shot",
+					"volume": 0.36,
+					"pitch": 0.86
+				}
+			]
+		},
         "scpdt.eta10.idle": {
             "category": "hostile",
             "sounds": [
@@ -746,19 +774,19 @@
             ]
         },
         "scpdt.class_d.gun_fire": {
-            "category": "hostile",
-            "max_distance" : 20.0,
-            "sounds": [
-                "sounds/scpmobs/class_d/gun_fire"
-            ]
-        },
-        "scpdt.class_d.take_gun": {
-            "category": "hostile",
-            "sounds": [
-                "sounds/scpmobs/class_d/pickup_gun1",
-                "sounds/scpmobs/class_d/pickup_gun2"
-            ]
-        },
+			"category": "hostile",
+			"max_distance": 20.0,
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/class_d/gun_fire",
+					"volume": 0.4
+				}
+			]
+		},
+		"scpdt.class_d.take_gun": {
+			"category": "hostile",
+			"sounds": ["sounds/scpmobs/class_d/pickup_gun1", "sounds/scpmobs/class_d/pickup_gun2"]
+		},
         "scpdt.goc_soldier.shoot": {
             "category": "hostile",
             "max_distance" : 20.0,
@@ -944,13 +972,19 @@
         "scpdt.scp096.rage": {
             "category": "music",
             "sounds": [
-                "sounds/scpmobs/scp096/rageing"
+				{
+					"name": "sounds/scpmobs/scp096/rageing",
+					"volume": 0.5
+				}
             ]
         },
         "scpdt.scp096.scream": {
             "category": "hostile",
             "sounds": [
-                "sounds/scpmobs/scp096/scream"
+				{
+					"name": "sounds/scpmobs/scp096/scream",
+					"volume": 0.4
+				}
             ]
         },
         "scpdt.scp096.hurt": {
@@ -981,39 +1015,40 @@
             "category": "music",
             "sounds": [
                 {
-                    "name": "sounds/scpmobs/scp096/new/triggered",
-                    "load_on_low_memory" : true
-                }
+					"name": "sounds/scpmobs/scp096/new/triggered",
+					"load_on_low_memory": true,
+					"volume": 0.3
+				}
             ]
         },
         "scpdt.scp096_new.scream": {
-            "category": "hostile",
-            "__use_legacy_max_distance" : "true",
-            "sounds": [
-                {
-                    "name": "sounds/scpmobs/scp096/new/chasing_scream1",
-                    "volume": 1.3
-                },
-                {
-                    "name": "sounds/scpmobs/scp096/new/chasing_scream2",
-                    "volume": 1.3
-                },
-                {
-                    "pitch" : 0.95,
-                    "name": "sounds/scpmobs/scp096/new/chasing_scream3",
-                    "volume": 1.3
-                },
-                {
-                    "pitch" : 0.84,
-                    "name": "sounds/scpmobs/scp096/new/chasing_scream4",
-                    "volume": 1.3
-                },
-                {
-                    "name": "sounds/scpmobs/scp096/new/chasing_scream5",
-                    "volume": 1.3
-                }
-            ]
-        },
+			"category": "hostile",
+			"__use_legacy_max_distance": "true",
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp096/new/chasing_scream1",
+					"volume": 0.5
+				},
+				{
+					"name": "sounds/scpmobs/scp096/new/chasing_scream2",
+					"volume": 0.5
+				},
+				{
+					"pitch": 0.95,
+					"name": "sounds/scpmobs/scp096/new/chasing_scream3",
+					"volume": 0.5
+				},
+				{
+					"pitch": 0.84,
+					"name": "sounds/scpmobs/scp096/new/chasing_scream4",
+					"volume": 0.5
+				},
+				{
+					"name": "sounds/scpmobs/scp096/new/chasing_scream5",
+					"volume": 0.5
+				}
+			]
+		},
         "scpdt.scp096_new.cry": {
             "category": "neutral",
             "sounds": [
@@ -1028,30 +1063,30 @@
                 {
                     "load_on_low_memory" : true,
                     "name": "sounds/scpmobs/scp096/new/stop_chase",
-                    "volume": 2.2
+                    "volume": 0.5
                 }
             ]
         },
         "scpdt.scp096_new.chase_music": {
-            "category": "music",
-            "sounds": [
-                {
-                    "load_on_low_memory" : true,
-                    "name": "sounds/scpmobs/scp096/new/chasing_music",
-                    "volume": 1.13
-                }
-            ]
-        },
-        "scpdt.scp096_new.climb_noise": {
-            "category": "hostile",
-            "max_distance": 23.0,
-            "sounds": [
-                {
-                    "name": "sounds/scpmobs/scp096/new/climb",
-                    "volume": 0.84
-                }
-            ]
-        },
+			"category": "music",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/scpmobs/scp096/new/chasing_music",
+					"volume": 0.3
+				}
+			]
+		},
+		"scpdt.scp096_new.climb_noise": {
+			"category": "hostile",
+			"max_distance": 23.0,
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp096/new/climb",
+					"volume": 0.5
+				}
+			]
+		},
         "scpdt.scp049.docile": {
             "category": "hostile",
             "sounds": [
@@ -1345,50 +1380,70 @@
             ]
         },
         "scpdt.scp5167_boss.death": {
-            "category": "music",
-            "sounds": [
-                "sounds/scpmobs/scp5167_boss/death"
-            ]
-        },
-        "scpdt.scp5167_boss.attack": {
-            "category": "hostile",
-            "sounds": [
-                "sounds/scpmobs/scp5167_boss/attack"
-            ]
-        },
-        "scpdt.scp5167_boss.idle": {
-            "category": "hostile",
-            "sounds": [
-                "sounds/scpmobs/scp5167_boss/sus",
-                "sounds/scpmobs/scp5167_boss/amogus"
-            ]
-        },
-        "scpdt.scp5167_boss.stronger": {
-            "category": "music",
-            "sounds": [
-                "sounds/scpmobs/scp5167_boss/stronger"
-            ]
-        },
-        "scpdt.scp5167_dragon.flap": {
-            "category": "music",
-            "sounds": [
-                "sounds/scpmobs/scp5167_dragon/flap"
-            ]
-        },
-        "scpdt.scp5167_dragon.death": {
-            "category": "neutral",
-            "max_distance": 60.0,
-            "sounds": [
-                "sounds/scpmobs/scp5167_dragon/death"
-            ]
-        },
-        "scpdt.scp5167_dragon.shot": {
-            "category": "hostile",
-            "max_distance": 20.0,
-            "sounds": [
-                "sounds/scpmobs/scp5167_boss/death"
-            ]
-        },
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp5167_boss/death",
+					"volume": 0.3
+				}
+			]
+		},
+		"scpdt.scp5167_boss.attack": {
+			"category": "hostile",
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp5167_boss/attack",
+					"volume": 0.3
+				}
+			]
+		},
+		"scpdt.scp5167_boss.idle": {
+			"category": "hostile",
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp5167_boss/sus",
+					"volume": 0.3
+				},
+				{
+					"name": "sounds/scpmobs/scp5167_boss/amogus",
+					"volume": 0.3
+				}
+			]
+		},
+		"scpdt.scp5167_boss.stronger": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp5167_boss/stronger",
+					"volume": 0.3
+				}
+			]
+		},
+		"scpdt.scp5167_dragon.flap": {
+			"category": "hostile",
+			"max_distance": 50.0,
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp5167_dragon/flap",
+					"volume": 0.6
+				}
+			]
+		},
+		"scpdt.scp5167_dragon.death": {
+			"category": "hostile",
+			"max_distance": 50.0,
+			"sounds": ["sounds/scpmobs/scp5167_dragon/death"]
+		},
+		"scpdt.scp5167_dragon.shot": {
+			"category": "hostile",
+			"max_distance": 20.0,
+			"sounds": [
+				{
+					"name": "sounds/scpmobs/scp5167_boss/death",
+					"volume": 0.08
+				}
+			]
+		},
         "scpdt.scp610.idle": {
             "category": "hostile",
             "sounds": [
@@ -1529,45 +1584,7 @@
                 "sounds/scpmobs/scp1000/growl2"
             ]
         },
-
-        //Commentary
-        "scpdt.commentary.triedtospawnentity": {
-            "category": "music",
-            "sounds": [
-                "commentary/sounds/triedtospawnentity"
-            ]
-        },
-        "scpdt.commentary.amogus": {
-            "category": "music",
-            "sounds": [
-                "commentary/sounds/amogus"
-            ]
-        },
-        "scpdt.commentary.thanks": {
-            "category": "music",
-            "sounds": [
-                "commentary/sounds/thanks"
-            ]
-        },
-        "scpdt.commentary.main_features": {
-            "category": "music",
-            "sounds": [
-                "commentary/sounds/mainfeatures"
-            ]
-        },
-        "scpdt.commentary.compatibility": {
-            "category": "music",
-            "sounds": [
-                "commentary/sounds/compatibility"
-            ]
-        },
-        "scpdt.commentary.first_version": {
-            "category": "music",
-            "sounds": [
-                "commentary/sounds/firstversion"
-            ]
-        },
-        "scpdt.death.shoot": {
+		"scpdt.death.shoot": {
             "category": "neutral",
             "max_distance" : 30.0,
             "sounds": [

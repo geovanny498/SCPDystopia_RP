@@ -13,9 +13,7 @@
 					"blend_transition": 0.08
 				},
 				"recoil": {
-					"animations": [
-						"recoil_kick"
-					],
+					"animations": ["recoil_kick"],
 					"transitions": [
 						{
 							"default": "q.cooldown_time_remaining('dt_ak_shooting') == 0.0"

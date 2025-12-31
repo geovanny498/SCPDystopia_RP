@@ -15,9 +15,7 @@
 					]
 				},
 				"pick": {
-					"animations": [
-						"pickup"
-					],
+					"animations": ["pickup"],
 					"transitions": [
 						{
 							"first_person": "q.all_animations_finished"
@@ -28,9 +26,7 @@
 					]
 				},
 				"first_person": {
-					"animations": [
-						"holding"
-					],
+					"animations": ["holding"],
 					"transitions": [
 						{
 							"sneak_trans": "c.is_first_person && q.is_sneaking"
@@ -42,9 +38,7 @@
 					"blend_transition": 0.1
 				},
 				"sneak_trans": {
-					"animations": [
-						"sneaking"
-					],
+					"animations": ["sneaking"],
 					"transitions": [
 						{
 							"first_person_sneak": "q.all_animations_finished"
@@ -56,9 +50,7 @@
 					"blend_transition": 0.1
 				},
 				"first_person_sneak": {
-					"animations": [
-						"holding_sneak"
-					],
+					"animations": ["holding_sneak"],
 					"transitions": [
 						{
 							"sneak_leave": "c.is_first_person && !q.is_sneaking"
@@ -70,9 +62,7 @@
 					"blend_transition": 0.1
 				},
 				"sneak_leave": {
-					"animations": [
-						"sneak_leaving"
-					],
+					"animations": ["sneak_leaving"],
 					"transitions": [
 						{
 							"first_person": "q.all_animations_finished"
@@ -84,9 +74,7 @@
 					"blend_transition": 0.1
 				},
 				"shoot": {
-					"animations": [
-						"shooting"
-					],
+					"animations": ["shooting"],
 					"transitions": [
 						{
 							"first_person": "q.cooldown_time_remaining('dt_glock_shooting') == 0.0"
@@ -94,9 +82,7 @@
 					]
 				},
 				"shoot_sneak": {
-					"animations": [
-						"shooting_sneak"
-					],
+					"animations": ["shooting_sneak"],
 					"transitions": [
 						{
 							"first_person_sneak": "q.cooldown_time_remaining('dt_glock_shooting') == 0.0"
@@ -119,9 +105,7 @@
 					]
 				},
 				"first_person": {
-					"animations": [
-						"holding"
-					],
+					"animations": ["holding"],
 					"transitions": [
 						{
 							"sneak_trans": "c.is_first_person && q.is_sneaking"
@@ -132,9 +116,7 @@
 					]
 				},
 				"sneak_trans": {
-					"animations": [
-						"sneaking"
-					],
+					"animations": ["sneaking"],
 					"transitions": [
 						{
 							"first_person_sneak": "q.all_animations_finished"
@@ -146,9 +128,7 @@
 					"blend_transition": 0.1
 				},
 				"first_person_sneak": {
-					"animations": [
-						"holding_sneak"
-					],
+					"animations": ["holding_sneak"],
 					"transitions": [
 						{
 							"sneak_leave": "c.is_first_person && !q.is_sneaking"
@@ -160,9 +140,7 @@
 					"blend_transition": 0.1
 				},
 				"sneak_leave": {
-					"animations": [
-						"sneak_leaving"
-					],
+					"animations": ["sneak_leaving"],
 					"transitions": [
 						{
 							"first_person": "q.all_animations_finished"
@@ -174,9 +152,7 @@
 					"blend_transition": 0.1
 				},
 				"reload": {
-					"animations": [
-						"reloading"
-					],
+					"animations": ["reloading"],
 					"transitions": [
 						{
 							"first_person": "q.cooldown_time_remaining('dt_glock_reloading') == 0.0"

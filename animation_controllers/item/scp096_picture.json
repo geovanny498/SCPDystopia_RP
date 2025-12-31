@@ -5,9 +5,7 @@
 			"initial_state": "hold",
 			"states": {
 				"hold": {
-					"animations": [
-						"holding"
-					],
+					"animations": ["holding"],
 					"transitions": [
 						{
 							"open": "query.cooldown_time_remaining('dt_scp096_picture_opening') != 0.0"
@@ -15,9 +13,7 @@
 					]
 				},
 				"open": {
-					"animations": [
-						"picture_opening"
-					],
+					"animations": ["picture_opening"],
 					"transitions": [
 						{
 							"hold": "query.cooldown_time_remaining('dt_scp096_picture_opening') == 0.0"

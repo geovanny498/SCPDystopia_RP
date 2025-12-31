@@ -79,7 +79,7 @@
 				}
 			}
 		},
-        "controller.animation.item.dt_m16.reload": {
+		"controller.animation.item.dt_m16.reload": {
 			"initial_state": "default",
 			"states": {
 				"default": {

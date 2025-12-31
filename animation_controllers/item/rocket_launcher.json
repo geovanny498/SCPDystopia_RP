@@ -18,9 +18,7 @@
 					]
 				},
 				"pick": {
-					"animations": [
-						"picking"
-					],
+					"animations": ["picking"],
 					"transitions": [
 						{
 							"hold": "query.all_animations_finished"
@@ -31,9 +29,7 @@
 					]
 				},
 				"hold": {
-					"animations": [
-						"holding"
-					],
+					"animations": ["holding"],
 					"transitions": [
 						{
 							"shoot": "query.cooldown_time_remaining('dt_rpg_shoot') != 0.0"
@@ -51,10 +47,7 @@
 					]
 				},
 				"shoot": {
-					"animations": [
-						"shoot",
-						"empty"
-					],
+					"animations": ["shoot", "empty"],
 					"transitions": [
 						{
 							"hold": "query.cooldown_time_remaining('dt_rpg_shoot') == 0.0"
@@ -80,10 +73,7 @@
 					]
 				},
 				"hold": {
-					"animations": [
-						"holding",
-						"empty"
-					],
+					"animations": ["holding", "empty"],
 					"transitions": [
 						{
 							"shoot": "query.cooldown_time_remaining('dt_rpg_shoot') != 0.0"
@@ -104,10 +94,7 @@
 					]
 				},
 				"shoot": {
-					"animations": [
-						"shoot",
-						"empty"
-					],
+					"animations": ["shoot", "empty"],
 					"transitions": [
 						{
 							"hold": "query.cooldown_time_remaining('dt_rpg_shoot') == 0.0"
@@ -115,9 +102,7 @@
 					]
 				},
 				"reload": {
-					"animations": [
-						"reload"
-					]
+					"animations": ["reload"]
 				}
 			}
 		},

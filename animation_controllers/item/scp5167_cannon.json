@@ -5,9 +5,7 @@
 			"initial_state": "pick",
 			"states": {
 				"pick": {
-					"animations": [
-						"pickup"
-					],
+					"animations": ["pickup"],
 					"transitions": [
 						{
 							"first_person": "query.all_animations_finished && c.is_first_person"
@@ -18,9 +16,7 @@
 					]
 				},
 				"first_person": {
-					"animations": [
-						"hold_first_person"
-					],
+					"animations": ["hold_first_person"],
 					"transitions": [
 						{
 							"third_person": "!c.is_first_person"
@@ -31,9 +27,7 @@
 					]
 				},
 				"third_person": {
-					"animations": [
-						"hold_third_person"
-					],
+					"animations": ["hold_third_person"],
 					"transitions": [
 						{
 							"first_person": "c.is_first_person"

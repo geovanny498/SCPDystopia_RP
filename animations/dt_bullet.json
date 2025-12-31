@@ -5,7 +5,11 @@
 			"loop": true,
 			"bones": {
 				"bullet": {
-					"rotation": ["variable.shake_power - query.target_x_rotation", "query.target_y_rotation", 0]
+					"rotation": [
+						"variable.shake_power - query.target_x_rotation",
+						"query.target_y_rotation",
+						0
+					]
 				}
 			}
 		}
